@@ -156,7 +156,7 @@ const ProductsContainer = () => {
 
               <Table
                   columns={columns}
-                  dataSource={get(data,'data.data.content',[])}
+                  dataSource={get(data,'data.content',[])}
                   bordered
                   size={"middle"}
                   pagination={false}
